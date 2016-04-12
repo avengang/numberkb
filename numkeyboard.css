@@ -1,0 +1,54 @@
+
+.numkeyboard_box {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background-color: lightgray;
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+}
+.numkeyboard_button_box {
+    flex-flow: row;
+    -webkit-flex-flow: row;
+    height:80%;
+}
+.numkeyboard_item {
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    width: 33.3%;
+    float: left;
+    height: 25%;
+}
+.numkeyboard_item b{ font-size: 18px; font-weight: 800;}
+.numkeyboard_number {
+    background-color: #f8f8f8;
+    font-size: 18px;
+    font-weight: 800;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.numkeyboard_close_delete {
+    font-size: 18px;
+    font-weight: 800;
+    height: 20%;
+    text-align: center;
+    width: 100%;
+}
+.numkeyboard_checkbox {
+    position: fixed;
+    left: -100px;
+    width: 10px;
+    height: 10px;
+}
